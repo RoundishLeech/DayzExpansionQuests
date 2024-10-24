@@ -1,0 +1,34 @@
+# Quest_NPC_and_Objective_Rules.txt
+# List of rules that need to be followed when generating QuestNPC, quest and objective json files
+
+## Mandatory Rules
+ - All generated files must be valid json, and conform to the examples provided as a basis for newly created files, taking consideration for the next rule:
+ - Example json files provided contain comments to help describe its purpose and its attributes. json does not support comments, so these comments should not be present in any newly generated json files.
+ - Each json file of each type must have a unique ID in the "ID" attribute.
+ - Multiple QuestNPC, Quest and Objective files can be generated as required, but not without a new valid and unique ID in its "ID" attribute. 
+ - Provided json example files attributes may reference other json file ID values that are not present in the examples. As this violates the following rule please apply it as follows:
+ - Newly generated QuestNPC, quest and objective json files must reference each other by use of their respective ID values, in the existing json attributes.
+ - No new json attributes are allowed to be created in any files that do not exist in the example files.
+ - No "ConfigVersion" attribute should be required to be changed.
+ - .txt files provided in the examples are for reference only. No new lines or changes to these files should be generated, unless where errors are obvious and changes are communicated clearly.
+ - QuestNPC's must not reside in the same position. If no unique locations remain availible in QuestNPC_Locations.txt then no new QuestNPC's should be generated.
+ - Positions in QuestNPC_Locations.txt and Objective_Locations.txt must be used as they are provided and not altered. They represent exact longtitude, latitude and altitude values on the map.
+ - QuestNPC_Locations.txt and or Objective_Locations.txt may include positions for multiple game maps. If so these will be described in the filename, or in the files itself. QuestNPC and Objective json files referencing positions MUST all reside on the same map when generated.
+ - Objective json files have different attributes according to thier Objective type. Generated Objective json files must use the correct example json for the chosen Objective Type.
+ - Objective json generated must include the ObjectiveType in the json files filename.
+ - Objective json example filenames include the "Reusable" or "Specific" terms. Reusable Objectives are generic and use common actions that are not location or dependancy specific. Specific Objectives are unique to a position on the map, or have some other dependancy which means they should only be used in specific quest scenarios.
+ - ID's used in the "ID" attribute field of a file, should also be used in the generated json files filename, for readability.
+ - Quests that support a storyline must be linked together using 'FollowUpQuest' element, specifying the ID quest which should be availible next. Followup quests should be availible from the same QuestNPC that the previous Quest was 'turned in' to.
+ - QuestNPC's cannot move from thier positions specified in the QuestNPC.json file, therefore, a QuestNPC character cannot accompany the player(s) on quests or related objectives. Linked quests supporting storylines must not rely on the QuestNPC character to move from its current position.
+
+## Additional Information
+ - Quests can be given by more than one QuestNPC
+ - Quests can be turned into more than one QuestNPC
+ - Main quests supporting key storylines should not be repeatable.
+ - Quests can include one or more Objectives
+ 
+
+ ## Recommendations
+ 
+ - Multiple Quests can be linked together with emerging storylines, by having one QuestNPC give a quest and turning that quest into another QuestNPC. This links quests together, and provides a mechanism for meeting new QuestNPC's, Quests they give out and discovering new areas the map.
+ - QuestNPC's represent characters in the world. They should have thier own personality, mannerisms, ways of speaking and relevant emotes (gestures as per QuestNPC_Emote_IDs.csv) and loadouts (as per loadouts.txt). Thier back stories should be related to other QuestNPC's where appropriate to tell a compelling and interlinked story using multiple linked or related quests.

@@ -1,0 +1,35 @@
+# QuestDefaultAINPCs.txt
+# List of valid NPC classnames to be used in quest json files "ClassName" attribute
+# Male NPC's
+ExpansionQuestNPCAIMirek
+ExpansionQuestNPCAIDenis
+ExpansionQuestNPCAIBoris
+ExpansionQuestNPCAICyril
+ExpansionQuestNPCAIElias
+ExpansionQuestNPCAIFrancis
+ExpansionQuestNPCAIGuo
+ExpansionQuestNPCAIHassan
+ExpansionQuestNPCAIIndar
+ExpansionQuestNPCAIJose
+ExpansionQuestNPCAIKaito
+ExpansionQuestNPCAILewis
+ExpansionQuestNPCAIManua
+ExpansionQuestNPCAIOliver
+ExpansionQuestNPCAIPeter
+ExpansionQuestNPCAIQuinn
+ExpansionQuestNPCAIRolf
+ExpansionQuestNPCAISeth
+ExpansionQuestNPCAITaiki
+# Female NPC's
+ExpansionQuestNPCAINiki
+ExpansionQuestNPCAILinda
+ExpansionQuestNPCAIMaria
+ExpansionQuestNPCAIFrida
+ExpansionQuestNPCAIGabi
+ExpansionQuestNPCAIHelga
+ExpansionQuestNPCAIIrena
+ExpansionQuestNPCAIJudy
+ExpansionQuestNPCAIKeiko
+ExpansionQuestNPCAIEva
+ExpansionQuestNPCAINaomi
+ExpansionQuestNPCAIBaty

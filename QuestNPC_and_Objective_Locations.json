@@ -1,0 +1,275 @@
+{
+    "MapName": "ChernarusPlus",
+    "Locations": [
+        {
+            "Type": "QuestNPC_Location",
+            "DisplayName": "Inside Shed at Electrical Substation in Zaprudnoye",
+            "Position": [
+                5590.72021484375,
+                158.84500122070313,
+                12602.599609375
+            ],
+            "Orientation": [
+                89.43829345703125,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "Type": "QuestNPC_Location",
+            "DisplayName": "Inside Supermarket at Quiet Bay",
+            "Position": [
+                1137.4200439453126,
+                5.900000095367432,
+                2444.56005859375
+            ],
+            "Orientation": [
+                -172.6439971923828,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "Type": "QuestNPC_Location",
+            "DisplayName": "Inside Sawmill Building in Far West Railyard",
+            "Position": [
+                960.5800170898438,
+                181.05999755859376,
+                7567.43994140625
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                -0.0
+            ]
+        },
+        {
+            "Type": "QuestNPC_Location",
+            "DisplayName": "Emergency Refugee Zone at Krasnostav Airfield",
+            "Position": [
+                11844.599609375,
+                140.55999755859376,
+                12455.400390625
+            ],
+            "Orientation": [
+                -30.71700096130371,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "Type": "QuestNPC_Location",
+            "DisplayName": "At Top of a Crane in Berezino",
+            "Position": [
+                13107.5,
+                17.3799991607666,
+                10103.0
+            ],
+            "Orientation": [
+                58.999996185302737,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "Type": "QuestNPC_Location",
+            "DisplayName": "Inside Shed at North West Airfield",
+            "Position": [
+                4153.990234375,
+                339.1300048828125,
+                10401.400390625
+            ],
+            "Orientation": [
+                58.29859161376953,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "Type": "QuestNPC_Location",
+            "DisplayName": "Beside the Lake at Dolina",
+            "Position": [
+                11712.7001953125,
+                51.599998474121097,
+                6557.58984375
+            ],
+            "Orientation": [
+                -155.4239959716797,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "Type": "QuestNPC_Location",
+            "DisplayName": "Inside Train Carriage at Svetloyarsk",
+            "Position": [
+                13961.599609375,
+                4.53000020980835,
+                13433.7998046875
+            ],
+            "Orientation": [
+                147.57400512695313,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "Type": "QuestNPC_Location",
+            "DisplayName": "Inside Power Station at Altar Communications Tower",
+            "Position": [
+                8177.10009765625,
+                474.07000732421877,
+                9123.0400390625
+            ],
+            "Orientation": [
+                179.96897888183595,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "Type": "QuestNPC_Location",
+            "DisplayName": "Inside Train Station at Electrovorsk",
+            "Position": [
+                10342.5,
+                6.150000095367432,
+                2124.010009765625
+            ],
+            "Orientation": [
+                -147.03399658203126,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "Type": "QuestNPC_Location",
+            "DisplayName": "Beside Picnic Table at Vysokiy Kamen",
+            "Position": [
+                8936.1103515625,
+                341.75,
+                4386.10009765625
+            ],
+            "Orientation": [
+                147.83993530273438,
+                1.505372166633606,
+                -1.3149986267089844
+            ]
+        },
+        {
+            "Type": "QuestNPC_Location",
+            "DisplayName": "Top Floor of Castle in Zob",
+            "Position": [
+                6553.2900390625,
+                404.3999938964844,
+                5596.18994140625
+            ],
+            "Orientation": [
+                0.0,
+                0.0,
+                -0.0
+            ]
+        },
+        {
+            "Type": "QuestNPC_Location",
+            "DisplayName": "Inside Barn at Drozhino",
+            "Position": [
+                3277.820068359375,
+                240.55999755859376,
+                4949.35009765625
+            ],
+            "Orientation": [
+                159.99993896484376,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "Type": "QuestNPC_Location",
+            "DisplayName": "Inside House at Stary Sobor",
+            "Position": [
+                6042.0,
+                304.2900085449219,
+                7768.7001953125
+            ],
+            "Orientation": [
+                139.99998474121095,
+                -0.6580169200897217,
+                -0.39503994584083559
+            ]
+        },
+        {
+            "Type": "QuestNPC_Location",
+            "DisplayName": "Underneath Road Bridge at Severograd",
+            "Position": [
+                8168.509765625,
+                134.9290008544922,
+                12399.099609375
+            ],
+            "Orientation": [
+                -106.25498962402344,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "Type": "QuestNPC_Location",
+            "DisplayName": "Inside Medical Centre at Svyatoy Roman Ski Resort",
+            "Position": [
+                1269.5799560546876,
+                296.1400146484375,
+                11419.599609375
+            ],
+            "Orientation": [
+                164.99996948242188,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "Type": "QuestNPC_Location",
+            "DisplayName": "Inside Bus Station in Novaya Petrovka",
+            "Position": [
+                3423.239990234375,
+                198.5500030517578,
+                12835.099609375
+            ],
+            "Orientation": [
+                -44.52439880371094,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "Type": "QuestNPC_Location",
+            "DisplayName": "Inside Mining Building at Kamensk",
+            "Position": [
+                7078.18017578125,
+                355.8900146484375,
+                14580.2998046875
+            ],
+            "Orientation": [
+                -139.99998474121095,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "Type": "Objective_Location",
+            "DisplayName": "Kamensk Military Base",
+            "Position": [
+                7850.759765625,
+                344.5,
+                14700.400390625
+            ]
+        },
+        {
+            "Type": "Objective_Location",
+            "DisplayName": "Tisy Military Base",
+            "Position": [
+                1671.5,
+                450.8590087890625,
+                14007.2998046875
+            ]
+        }
+    ]
+}

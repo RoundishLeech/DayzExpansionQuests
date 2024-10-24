@@ -1,0 +1,13 @@
+# objectivetypes.txt
+# list of valid ID's, ObjectiveTypes, and thier descriptions ID to be used in objective json files in the attribute "ObjectiveType"
+id ,objectiveType, objectiveDescription
+2, TARGET, Quest player/s will need to kill a certain amount of mobs/players. (Optional, With a special weapon).
+3, TRAVEL, Quest player/s will need to go to location XY.
+4, COLLECT, Quest player/s will need to collect/find a certain amount of items.
+5, DELIVERY, The Quest player/s will need to deliver given items to a certain position and NPC.
+6, TREASUREHUNT, Quest player/s will need to find a location containing a stashed treasure.
+7, AIPATROL, Quest player/s will need to clear an AI patrol. (Optional, With a special weapon).
+8, AICAMP, Quest player/s will need to clear an AI Camp. (Optional, With a special weapon).
+9, AIVIP, Quest player/s will need to protect and escort an AI to a certain location.
+10, ACTION, Quest player/s will need to execute a certain Action.
+11, CRAFTING , Quest player/s will need to craft certain items.

@@ -1,0 +1,15 @@
+# factions.txt
+# List of valid 'NPCFaction' values for use in quest json files. Terms 'AI' and 'NPC' are interchangable.
+West, Friendly toward Civilian and West
+East, Friendly toward Civilian and East
+Raiders, Hostile toward everyone, including other Raiders (unless they are part of the same group)
+Mercenaries, Hostile toward everyone except other Mercenaries
+Civilian, Friendly toward any faction that is not hostile to them (so by default, West, East, Civilian, Passive and Guards)
+Passive, Completely passive, will not even look at other entities.
+Guards, Always friendly toward other guards, friendly toward other AI and players as long as they don't raise their weapon
+InvincibleGuards, Like guards, but can't be killed.
+Shamans, Friendly towards other shamans, won't attack or be attacked by Zombies/Infected and animals. I dont like using Shamans as I like NPC's to be vulnerable to threats, but may be useful in some scenarios.
+Observers, Will only look at other entities, but not engage in combat.
+InvincibleObservers, Like observers, but can't be killed. Should used for Quest Giver NPC's in the "NPCFaction" json attribute.
+Brawlers, Friendly toward Civilian and Brawlers. Very strong melee that can one-shot Infected with fists.
+RANDOM, Chooses one of the above factions that are not invincible, observer or passive and don't have special melee abilities.

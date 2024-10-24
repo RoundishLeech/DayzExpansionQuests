@@ -1,0 +1,17 @@
+# loadouts.txt
+# List of NPC Clothing and Gear Configurations known as Loadouts that can be applied to an NPC in either 
+# questNPC json files in "NPCLoadoutFile" attribute, or the AI Camp, AI Patrol or Target Objective Files in the "Loadout" attribute.
+BanditLoadout
+EastLoadout
+FireFighterLoadout
+GorkaLoadout
+HumanLoadout
+NBCLoadout
+PlayerFemaleSuitLoadout
+PlayerMaleSuitLoadout
+PlayerSurvivorLoadout
+PoliceLoadout
+SurvivorLoadout
+TTSKOLoadout
+WestLoadout
+YellowKingLoadout
